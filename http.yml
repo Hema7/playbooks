@@ -1,0 +1,6 @@
+---
+- nam
+- hosts: dev
+   tasks:
+    - name: instaling Httpd Server
+      yum: name=httpd state=present
