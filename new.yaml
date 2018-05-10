@@ -2,4 +2,4 @@
 - hosts: dev
   tasks:
     - name: httpd server
-      yum: name=httpd state=presents
+      yum: name=httpd state=present
